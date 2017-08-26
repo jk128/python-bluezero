@@ -24,7 +24,8 @@ To upload to pypi:
 
 .. code-block:: none
 
-    python3 setup.py sdist bdist_wheel upload -r pypi
+    python3 setup.py sdist bdist_wheel
+    twine upload dist/*
 
 
 Build Documentation
